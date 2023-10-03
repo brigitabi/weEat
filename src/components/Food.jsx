@@ -30,11 +30,11 @@ const Food = () => {
         <div>
           <p className='font-bold text-gray-700 mb-2'>Filter type</p>
           <div className='flex justify-between flex-wrap'>
-            <button onClick={()=> setMeals(data)} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>All </button>
-            <button onClick={()=> filterType('burger')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>Burgers </button>
-            <button onClick={()=> filterType('pizza')}className='bg-green-500 text-white border-green-700 hover:bg-green-900'>Pizza </button>
-            <button onClick={()=> filterType('salad')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>Salads </button>
-            <button onClick={()=> filterType('chicken')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>Chickens </button>
+            <button onClick={()=> setMeals(data)} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>All </button>
+            <button onClick={()=> filterType('burger')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>Burgers </button>
+            <button onClick={()=> filterType('pizza')}className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>Pizza </button>
+            <button onClick={()=> filterType('salad')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>Salads </button>
+            <button onClick={()=> filterType('chicken')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>Chickens </button>
           </div>
         </div>
 
@@ -42,10 +42,10 @@ const Food = () => {
         <div>
           <p className='font-bold text-gray-700 mb-2'>Filter price</p>
           <div className='flex justify-between max-w-[390px] w-full'>
-            <button onClick={()=> filterPrice('$')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>$</button>
-            <button onClick={()=> filterPrice('$$')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>$$</button>
-            <button onClick={()=> filterPrice('$$$')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>$$$</button>
-            <button onClick={()=> filterPrice('$$$$')} className='bg-green-500 text-white border-green-700 hover:bg-green-900'>$$$$</button>
+            <button onClick={()=> filterPrice('$')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>$</button>
+            <button onClick={()=> filterPrice('$$')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>$$</button>
+            <button onClick={()=> filterPrice('$$$')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>$$$</button>
+            <button onClick={()=> filterPrice('$$$$')} className='m-1 bg-green-500 text-white border-green-700 hover:bg-green-900'>$$$$</button>
           </div>
         </div>
       </div>
