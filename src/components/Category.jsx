@@ -14,6 +14,10 @@ const Category = () => {
                 </div>
             ))}
         </div>
+        <div>
+            <p className='text-green-900 text-center'>Created by Brigita B for <span className='font-bold'>learning purposes.</span> </p>
+            <p className='text-green-900 text-center font-bold'>Images source: Unsplash. </p>
+        </div>
     </div>
   )
 }
